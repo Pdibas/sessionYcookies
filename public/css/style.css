@@ -1,0 +1,60 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    width: 37vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 65px auto;
+}
+
+a {
+    color: black;
+}
+
+.dangerError {
+    width: 50%;
+    background-color: brown;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+label {
+    width: 50%;
+}
+
+input {
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+select {
+    width: 50%;
+}
+
+.check {
+    width: 40%;
+}
